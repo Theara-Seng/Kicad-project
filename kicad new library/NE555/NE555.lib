@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# NE555
+#
+DEF NE555 U 0 40 Y Y 1 L N
+F0 "U" -400 525 50 H V L BNN
+F1 "NE555" -401 -601 50 H V L BNN
+F2 "DIP794W45P254L1060H508Q8" 0 0 50 H I L BNN
+F3 "SOIC-8 Conrad" 0 0 50 H I L BNN
+F4 "Texas Instruments" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "Unavailable" 0 0 50 H I L BNN
+F7 "" 0 0 50 H I L BNN
+F8 "NE555" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -400 -500 -400 500 N
+P 2 0 0 10 -400 500 400 500 N
+P 2 0 0 10 400 500 400 -500 N
+P 2 0 0 10 400 -500 -400 -500 N
+X GND 1 600 -400 200 L 40 40 0 0 W 
+X TRIG 2 -600 200 200 R 40 40 0 0 I 
+X OUT 3 600 100 200 L 40 40 0 0 O 
+X RESET 4 -600 0 200 R 40 40 0 0 I 
+X VCC 8 600 400 200 L 40 40 0 0 W 
+X DISCH 7 600 200 200 L 40 40 0 0 O 
+X THRES 6 -600 100 200 R 40 40 0 0 I 
+X CONT 5 -600 -200 200 R 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library

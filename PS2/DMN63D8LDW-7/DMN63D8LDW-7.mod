@@ -1,0 +1,99 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+SOT363
+$EndINDEX
+$MODULE SOT363
+Po 0 0 0 15 00000000 00000000 ~~
+Li SOT363
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 0.1701 -2.0862 1.00057 1.00057 0 0.05 N V 21 "SOT363"
+T1 0.80536 2.06595 1.00046 1.00046 0 0.05 N V 21 "VAL**"
+DS -2.27 -0.55 -0.27 -0.55 0.2032 27
+DS -0.27 0.55 -2.27 0.55 0.2032 27
+DC -1.97 0.25 -1.82 0.25 0 21
+DP 0 0 0 0 4 0 27
+Dl -2.0731 0.6
+Dl -1.77 0.6
+Dl -1.77 1.10165
+Dl -2.0731 1.10165
+DP 0 0 0 0 4 0 27
+Dl -1.42123 0.6
+Dl -1.12 0.6
+Dl -1.12 1.10095
+Dl -1.42123 1.10095
+DP 0 0 0 0 4 0 27
+Dl -0.770007 0.6
+Dl -0.47 0.6
+Dl -0.47 1.10001
+Dl -0.770007 1.10001
+DP 0 0 0 0 4 0 27
+Dl -0.770795 -1.1
+Dl -0.47 -1.1
+Dl -0.47 -0.600619
+Dl -0.770795 -0.600619
+DP 0 0 0 0 4 0 27
+Dl -1.42192 -1.1
+Dl -1.12 -1.1
+Dl -1.12 -0.600813
+Dl -1.42192 -0.600813
+DP 0 0 0 0 4 0 27
+Dl -2.0739 -1.1
+Dl -1.77 -1.1
+Dl -1.77 -0.601131
+Dl -2.0739 -0.601131
+$PAD
+Sh "S2" R 0.3 0.7 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.92 0.8
+$EndPAD
+$PAD
+Sh "G2" R 0.3 0.7 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.27 0.8
+$EndPAD
+$PAD
+Sh "D1" R 0.3 0.7 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.62 0.8
+$EndPAD
+$PAD
+Sh "S1" R 0.3 0.7 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.62 -0.8
+$EndPAD
+$PAD
+Sh "G1" R 0.3 0.7 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.27 -0.8
+$EndPAD
+$PAD
+Sh "D2" R 0.3 0.7 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.92 -0.8
+$EndPAD
+$EndMODULE SOT363

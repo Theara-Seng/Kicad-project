@@ -1,0 +1,17 @@
+.DMN601K-7 :1 ;N-CHANNEL ENHANCEMENT MODE FIELD EFFECT TRANSISTOR
+SOT95P240X110-3N
+*STM U
+*NGS
+*PLB 1="G" 2="S" 3="D"
+*MXP 3
+*DFN DMN601K-7
+~!Manufacturer_Name (Diodes Inc.)
+~!Manufacturer_Part_Number (DMN601K-7)
+~!Mouser Part Number (621-DMN601K-7)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMN601K-7)
+~!RS Part Number (7082488P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/7082488P)
+~!Link Datasheet (-)
+~!Height (-)
+DMN601K-7
+1.1!U 2.1!U 3.1!U 

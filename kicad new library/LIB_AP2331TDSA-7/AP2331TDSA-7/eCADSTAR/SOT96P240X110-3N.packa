@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AP2331TDSA-7"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-04-18-03:10:22)
+    (mountForm default
+        (footprintRef "SOT96P240X110-3N")
+        (spec "System")
+    )
+)

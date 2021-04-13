@@ -1,0 +1,9 @@
+Manufacturer=Diodes Inc.
+PartNumber=DMN63D8LDW-7
+PartCategory=MOSFET (N-Channel)
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=1.1
+Released=2018-07-19 00:05:13
+Downloaded=2019-09-06 05:44:33
+3D=Y

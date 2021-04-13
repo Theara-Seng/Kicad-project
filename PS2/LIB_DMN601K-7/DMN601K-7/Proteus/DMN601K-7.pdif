@@ -1,0 +1,109 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "DMN601K-7"
+   (description "N-CHANNEL ENHANCEMENT MODE FIELD EFFECT TRANSISTOR")
+   (family "ANA")
+   (package "SOT95P240X110-3N")
+   (attribute "Datasheet Link" "")
+   (attribute "Manufacturer_Name" "Diodes Inc.")
+   (attribute "Manufacturer_Part_Number" "DMN601K-7")
+   (attribute "Mouser Part Number" "621-DMN601K-7")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMN601K-7")
+   (attribute "RS Part Number" "7082488P")
+   (attribute "RS Price/Stock" "http://uk.rs-online.com/web/p/products/7082488P")
+   (gate
+    (symbol "DMN601K-7")
+    (pin "G" 1 PS)
+    (pin "S" 2 PS)
+    (pin "D" 3 PS)
+   )
+  )
+  (symbol "DMN601K-7"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOT95P240X110-3N"
+   (units MM)
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 0.7112 0.6096)
+      (pt 0.7112 1.4986))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -0.1524 -1.4986)
+      (pt 0.7112 -1.4986))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 0.7112 -1.4986)
+      (pt 0.7112 -0.6096))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 0.7112 1.4986)
+      (pt 0.3048 1.4986))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 0.3048 1.4986)
+      (pt -0.1524 1.4986))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -0.7112 0.3556)
+      (pt -0.7112 -0.3556))))
+   (leg 1 (pt -1.016 0.9652) (padstack 0))
+   (leg 2 (pt -1.016 -0.9652) (padstack 0))
+   (leg 3 (pt 1.016 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.5588 1.3208 0 0 0))
+   )
+  )
+ )
+)

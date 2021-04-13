@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MM74C922N'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Fairchild Semiconductor", "MM74C922N" (!) = "", "DIP927W56P260L2273H533Q18N", "Dual-In-Line Packages", "512-MM74C922N", "https://www.mouser.com/Search/Refine.aspx?Keyword=512-MM74C922N", "", "", "Encoders, Decoders, Multiplexers & Demultiplexers 16-Key Encoder", "https://www.fairchildsemi.com/datasheets/MM/MM74C922.pdf", "5.33 mm"
+END_PART
+
+END.

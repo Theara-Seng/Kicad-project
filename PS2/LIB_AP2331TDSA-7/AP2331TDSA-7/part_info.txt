@@ -1,0 +1,9 @@
+Manufacturer=Diodes Inc.
+PartNumber=AP2331TDSA-7
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=1.1
+Released=2019-04-18 03:10:22
+Downloaded=2019-09-05 04:07:12
+3D=Y

@@ -1,0 +1,23 @@
+( { EESchema Netlist Version 1.1 created  8/3/2019 10:58:47 AM }
+ ( /5D4437BB NRF_24TEST:nrf_24test  U1 nrf_24test
+  (    1 Net-(J1-Pad1) )
+  (    2 Net-(J1-Pad2) )
+  (    3 Net-(J1-Pad3) )
+  (    4 Net-(J1-Pad4) )
+  (    5 Net-(J1-Pad5) )
+  (    6 Net-(J1-Pad6) )
+  (    7 Net-(J1-Pad7) )
+  (    8 Net-(J1-Pad8) )
+ )
+ ( /5D443821 Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm  J1 Conn_01x08
+  (    1 Net-(J1-Pad1) )
+  (    2 Net-(J1-Pad2) )
+  (    3 Net-(J1-Pad3) )
+  (    4 Net-(J1-Pad4) )
+  (    5 Net-(J1-Pad5) )
+  (    6 Net-(J1-Pad6) )
+  (    7 Net-(J1-Pad7) )
+  (    8 Net-(J1-Pad8) )
+ )
+)
+*

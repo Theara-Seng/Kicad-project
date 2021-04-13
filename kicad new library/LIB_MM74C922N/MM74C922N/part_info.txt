@@ -1,0 +1,9 @@
+Manufacturer=Fairchild Semiconductor
+PartNumber=MM74C922N
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=18
+Version=1.1
+Released=2016-11-18 09:30:12
+Downloaded=2019-11-03 06:40:15
+3D=Y

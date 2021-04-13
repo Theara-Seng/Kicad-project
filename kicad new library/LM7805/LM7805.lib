@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LM7805
+#
+DEF LM7805 U 0 40 Y Y 1 L N
+F0 "U" 200 601 50 H V L BNN
+F1 "LM7805" 700 -300 50 H V L BNN
+F2 "TO220" 0 0 50 H I L BNN
+F3 "LM7805" 0 0 50 H I L BNN
+F4 "Unavailable" 0 0 50 H I L BNN
+F5 "Texas Instruments" 0 0 50 H I L BNN
+F6 "" 0 0 50 H I L BNN
+F7 "TO-220 Texas Instruments" 0 0 50 H I L BNN
+F8 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -100 500 -100 -100 N
+P 2 0 0 10 -100 -100 900 -100 N
+P 2 0 0 10 900 -100 900 500 N
+P 2 0 0 10 900 500 -100 500 N
+X IN 1 -300 400 200 R 40 40 0 0 B 
+X OUT 3 1100 400 200 L 40 40 0 0 B 
+X GND 2 400 -300 200 U 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library

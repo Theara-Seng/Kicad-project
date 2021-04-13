@@ -1,0 +1,1834 @@
+EESchema Schematic File Version 4
+LIBS:atmega4809-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_B J3
+U 1 1 5D70FEC1
+P 850 1350
+F 0 "J3" H 907 1817 50  0000 C CNN
+F 1 "USB_B" H 907 1726 50  0000 C CNN
+F 2 "" H 1000 1300 50  0001 C CNN
+F 3 " ~" H 1000 1300 50  0001 C CNN
+	1    850  1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L AP2331TDSA-7:AP2331TDSA-7 IC1
+U 1 1 5D711D2F
+P 2400 1150
+F 0 "IC1" H 2900 785 50  0000 C CNN
+F 1 "AP2331TDSA-7" H 2900 876 50  0000 C CNN
+F 2 "" H 3250 1250 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2331TD.pdf" H 3250 1150 50  0001 L CNN
+F 4 "Power Switch ICs - Power Distribution USB Power Switch" H 3250 1050 50  0001 L CNN "Description"
+F 5 "1.1" H 3250 950 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 3250 850 50  0001 L CNN "Manufacturer_Name"
+F 7 "AP2331TDSA-7" H 3250 750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "621-AP2331TDSA-7" H 3250 650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-AP2331TDSA-7" H 3250 550 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3250 450 50  0001 L CNN "RS Part Number"
+F 11 "" H 3250 350 50  0001 L CNN "RS Price/Stock"
+	1    2400 1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1150 1150 1400 1150
+Wire Wire Line
+	1400 1150 1400 1300
+Connection ~ 1400 1150
+$Comp
+L Device:C C7
+U 1 1 5D717244
+P 1400 1450
+F 0 "C7" H 1515 1496 50  0000 L CNN
+F 1 "0.1uF" H 1515 1405 50  0000 L CNN
+F 2 "" H 1438 1300 50  0001 C CNN
+F 3 "~" H 1400 1450 50  0001 C CNN
+	1    1400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5D71ADC9
+P 2600 1400
+F 0 "C8" H 2715 1446 50  0000 L CNN
+F 1 "0.1uF" H 2715 1355 50  0000 L CNN
+F 2 "" H 2638 1250 50  0001 C CNN
+F 3 "~" H 2600 1400 50  0001 C CNN
+	1    2600 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1250 2600 1050
+Wire Wire Line
+	2600 1550 2600 1600
+Wire Notes Line
+	3150 700  550  700 
+$Comp
+L power:GND #PWR0101
+U 1 1 5D727804
+P 850 2100
+F 0 "#PWR0101" H 850 1850 50  0001 C CNN
+F 1 "GND" H 855 1927 50  0000 C CNN
+F 2 "" H 850 2100 50  0001 C CNN
+F 3 "" H 850 2100 50  0001 C CNN
+	1    850  2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5D7290B1
+P 1400 1600
+F 0 "#PWR0102" H 1400 1350 50  0001 C CNN
+F 1 "GND" H 1405 1427 50  0000 C CNN
+F 2 "" H 1400 1600 50  0001 C CNN
+F 3 "" H 1400 1600 50  0001 C CNN
+	1    1400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5D729553
+P 2600 1600
+F 0 "#PWR0103" H 2600 1350 50  0001 C CNN
+F 1 "GND" H 2605 1427 50  0000 C CNN
+F 2 "" H 2600 1600 50  0001 C CNN
+F 3 "" H 2600 1600 50  0001 C CNN
+	1    2600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5D729AD1
+P 2400 1150
+F 0 "#PWR0104" H 2400 900 50  0001 C CNN
+F 1 "GND" H 2405 977 50  0000 C CNN
+F 2 "" H 2400 1150 50  0001 C CNN
+F 3 "" H 2400 1150 50  0001 C CNN
+	1    2400 1150
+	1    0    0    -1  
+$EndComp
+Text Notes 550  650  0    79   ~ 16
+USB POWER SWITCH\n
+$Comp
+L power:VBUS #PWR0105
+U 1 1 5D73170E
+P 2750 1050
+F 0 "#PWR0105" H 2750 900 50  0001 C CNN
+F 1 "VBUS" V 2765 1178 50  0000 L CNN
+F 2 "" H 2750 1050 50  0001 C CNN
+F 3 "" H 2750 1050 50  0001 C CNN
+	1    2750 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 1050 2600 1050
+Connection ~ 2600 1050
+Wire Wire Line
+	2600 1050 2750 1050
+Text GLabel 1150 1350 2    50   Output ~ 0
+D+
+Text GLabel 1150 1450 2    50   Output ~ 0
+D-
+Text GLabel 6250 2150 2    50   Input ~ 0
+D+
+Wire Wire Line
+	6250 2150 6050 2150
+Wire Wire Line
+	6250 2250 6050 2250
+Text GLabel 6250 2250 2    50   Input ~ 0
+D-
+NoConn ~ 6050 2350
+Wire Wire Line
+	6050 2550 6150 2550
+NoConn ~ 6050 2750
+Text Label 6200 2850 0    50   Italic 10
+DBG3_CTRL
+Wire Wire Line
+	6050 2850 6200 2850
+$Comp
+L power:GND #PWR0106
+U 1 1 5D74A1E6
+P 6150 2550
+F 0 "#PWR0106" H 6150 2300 50  0001 C CNN
+F 1 "GND" V 6155 2422 50  0000 R CNN
+F 2 "" H 6150 2550 50  0001 C CNN
+F 3 "" H 6150 2550 50  0001 C CNN
+	1    6150 2550
+	0    -1   -1   0   
+$EndComp
+Text Label 6200 2650 0    50   Italic 10
+CDC_RX_CTRL
+Wire Wire Line
+	6050 2650 6200 2650
+Text Label 6200 2450 0    50   Italic 10
+CDC_TX_CTRL
+Wire Wire Line
+	6200 2450 6050 2450
+NoConn ~ 5550 3550
+NoConn ~ 5450 3550
+Wire Wire Line
+	5750 3550 5750 3750
+Wire Wire Line
+	5650 3550 5650 3750
+Wire Wire Line
+	5350 3550 5350 3750
+Wire Wire Line
+	5250 3550 5250 3750
+Wire Bus Line
+	5250 3750 5750 3750
+Text Label 5750 3750 3    50   Italic 10
+DBG1_CTRL
+Text Label 5650 3750 3    50   Italic 10
+DBG0_CTRL
+Text Label 5350 3750 3    50   Italic 10
+DBG2_GPIO
+Text Label 5250 3750 3    50   Italic 10
+DBG2_CTRL
+$Comp
+L Device:C C10
+U 1 1 5D74F6D2
+P 4850 3800
+F 0 "C10" H 4965 3846 50  0000 L CNN
+F 1 "100nF" H 4600 3800 50  0000 L CNN
+F 2 "" H 4888 3650 50  0001 C CNN
+F 3 "~" H 4850 3800 50  0001 C CNN
+	1    4850 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3550 5150 3950
+Wire Wire Line
+	5150 3950 4850 3950
+Wire Wire Line
+	5050 3550 5050 3650
+Wire Wire Line
+	5050 3650 4850 3650
+$Comp
+L power:GND #PWR0107
+U 1 1 5D7511A7
+P 4650 3950
+F 0 "#PWR0107" H 4650 3700 50  0001 C CNN
+F 1 "GND" V 4655 3822 50  0000 R CNN
+F 2 "" H 4650 3950 50  0001 C CNN
+F 3 "" H 4650 3950 50  0001 C CNN
+	1    4650 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 5D752476
+P 4650 3650
+F 0 "#PWR0108" H 4650 3500 50  0001 C CNN
+F 1 "+3.3V" V 4665 3778 50  0000 L CNN
+F 2 "" H 4650 3650 50  0001 C CNN
+F 3 "" H 4650 3650 50  0001 C CNN
+	1    4650 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 3650 4850 3650
+Connection ~ 4850 3650
+Wire Wire Line
+	4650 3950 4850 3950
+Connection ~ 4850 3950
+Wire Bus Line
+	4350 2100 4350 2900
+Wire Wire Line
+	4750 2850 4350 2850
+NoConn ~ 4750 2650
+NoConn ~ 4750 2450
+NoConn ~ 4750 2350
+Wire Wire Line
+	4750 2250 4350 2250
+Wire Wire Line
+	4750 2150 4350 2150
+$Comp
+L Device:R R3
+U 1 1 5D758C37
+P 4600 2750
+F 0 "R3" V 4393 2750 50  0000 C CNN
+F 1 "1K" V 4484 2750 50  0000 C CNN
+F 2 "" V 4530 2750 50  0001 C CNN
+F 3 "~" H 4600 2750 50  0001 C CNN
+	1    4600 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 2550 4450 2650
+Wire Wire Line
+	4450 2550 4750 2550
+Wire Wire Line
+	4450 2650 4350 2650
+Connection ~ 4450 2650
+Wire Wire Line
+	4450 2650 4450 2750
+Text Label 4350 2150 2    50   Italic 10
+S1_0_TX
+Text Label 4350 2250 2    50   Italic 10
+S1_1_RX
+Text Label 4350 2850 2    50   Italic 10
+S0_3_CLK
+Text Label 4350 2650 2    50   Italic 10
+S0
+Wire Notes Line
+	7050 4500 7050 700 
+Wire Notes Line
+	7050 700  3800 700 
+Wire Notes Line
+	3800 700  3800 4500
+Wire Notes Line
+	3800 4500 7050 4500
+Text Notes 3800 800  0    79   Italic 16
+ATSAMD21E18A-AU\n\n
+Wire Bus Line
+	4850 1150 5950 1150
+Wire Wire Line
+	5050 1350 5050 1150
+Wire Wire Line
+	5150 1350 5150 1150
+Wire Wire Line
+	5250 1350 5250 1150
+Wire Wire Line
+	5350 1350 5350 1150
+Wire Wire Line
+	5450 1350 5450 1150
+Wire Wire Line
+	5550 1350 5550 1150
+Wire Wire Line
+	5650 1350 5650 1150
+Wire Wire Line
+	5750 1350 5750 1150
+Text GLabel 10650 4750 2    50   Input Italic 10
+DBG3
+$Comp
+L DMN63D8LDW-7:DMN63D8LDW-7 Q1
+U 1 1 5D78D65E
+P 8750 1450
+F 0 "Q1" H 9200 1715 50  0000 C CNN
+F 1 "DMN63D8LDW-7" H 9200 1624 50  0000 C CNN
+F 2 "" H 9500 1550 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMN63D8LDW.pdf" H 9500 1450 50  0001 L CNN
+F 4 "Diodes Inc DMN63D8LDW-7 Dual N-channel MOSFET Transistor, 0.26 A, 30 V, 6-Pin SOT-363" H 9500 1350 50  0001 L CNN "Description"
+F 5 "1.1" H 9500 1250 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 9500 1150 50  0001 L CNN "Manufacturer_Name"
+F 7 "DMN63D8LDW-7" H 9500 1050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "621-DMN63D8LDW-7" H 9500 950 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMN63D8LDW-7" H 9500 850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "8222598P" H 9500 750 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/8222598P" H 9500 650 50  0001 L CNN "RS Price/Stock"
+F 12 "70551252" H 9500 550 50  0001 L CNN "Allied_Number"
+F 13 "https://www.alliedelec.com/diodes-inc-dmn63d8ldw-7/70551252/" H 9500 450 50  0001 L CNN "Allied Price/Stock"
+	1    8750 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 1450 8250 1450
+$Comp
+L Device:R R4
+U 1 1 5D72DF5E
+P 8250 1600
+F 0 "R4" H 8320 1646 50  0000 L CNN
+F 1 "10K" H 8320 1555 50  0000 L CNN
+F 2 "" V 8180 1600 50  0001 C CNN
+F 3 "~" H 8250 1600 50  0001 C CNN
+	1    8250 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 1450
+Wire Wire Line
+	8250 1450 8750 1450
+Wire Wire Line
+	8750 1550 8500 1550
+Wire Wire Line
+	8500 1550 8500 1750
+Wire Wire Line
+	8500 1750 8250 1750
+$Comp
+L power:+3.3V #PWR0109
+U 1 1 5D72F949
+P 8100 1750
+F 0 "#PWR0109" H 8100 1600 50  0001 C CNN
+F 1 "+3.3V" V 8115 1878 50  0000 L CNN
+F 2 "" H 8100 1750 50  0001 C CNN
+F 3 "" H 8100 1750 50  0001 C CNN
+	1    8100 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 1750 8250 1750
+Connection ~ 8250 1750
+Text GLabel 10650 1450 2    50   Input Italic 10
+CDC_TX
+Wire Wire Line
+	9650 1450 10100 1450
+$Comp
+L power:VBUS #PWR0110
+U 1 1 5D734245
+P 10100 1100
+F 0 "#PWR0110" H 10100 950 50  0001 C CNN
+F 1 "VBUS" H 10115 1273 50  0000 C CNN
+F 2 "" H 10100 1100 50  0001 C CNN
+F 3 "" H 10100 1100 50  0001 C CNN
+	1    10100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5D734775
+P 10100 1250
+F 0 "R10" H 10170 1296 50  0000 L CNN
+F 1 "10K" H 10170 1205 50  0000 L CNN
+F 2 "" V 10030 1250 50  0001 C CNN
+F 3 "~" H 10100 1250 50  0001 C CNN
+	1    10100 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 1400 10100 1450
+Connection ~ 10100 1450
+Wire Wire Line
+	10100 1450 10650 1450
+Wire Wire Line
+	9650 1650 9650 1850
+Wire Wire Line
+	9650 1850 8250 1850
+Wire Wire Line
+	9650 1550 9700 1550
+$Comp
+L Device:R R5
+U 1 1 5D73A8D4
+P 8250 2000
+F 0 "R5" H 8320 2046 50  0000 L CNN
+F 1 "10K" H 8320 1955 50  0000 L CNN
+F 2 "" V 8180 2000 50  0001 C CNN
+F 3 "~" H 8250 2000 50  0001 C CNN
+	1    8250 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 1850
+Wire Wire Line
+	8250 1850 7850 1850
+Wire Wire Line
+	9700 2150 8250 2150
+Wire Wire Line
+	9700 1550 9700 2150
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 5D73D12E
+P 8100 2150
+F 0 "#PWR0111" H 8100 2000 50  0001 C CNN
+F 1 "+3.3V" V 8115 2278 50  0000 L CNN
+F 2 "" H 8100 2150 50  0001 C CNN
+F 3 "" H 8100 2150 50  0001 C CNN
+	1    8100 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 2150 8250 2150
+Connection ~ 8250 2150
+Text Label 7850 1450 2    50   Italic 10
+S1_0_TX
+Text Label 7850 1850 2    50   Italic 10
+S1_1_RX
+Text GLabel 10650 2000 2    50   Input Italic 10
+CDC_RX
+Wire Wire Line
+	8750 2000 10100 2000
+Wire Wire Line
+	8750 1650 8750 2000
+$Comp
+L Device:R R11
+U 1 1 5D745493
+P 10100 1850
+F 0 "R11" H 10170 1896 50  0000 L CNN
+F 1 "10K" H 10170 1805 50  0000 L CNN
+F 2 "" V 10030 1850 50  0001 C CNN
+F 3 "~" H 10100 1850 50  0001 C CNN
+	1    10100 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 10100 2000
+Wire Wire Line
+	10100 2000 10650 2000
+$Comp
+L power:VBUS #PWR0112
+U 1 1 5D745DF6
+P 10100 1700
+F 0 "#PWR0112" H 10100 1550 50  0001 C CNN
+F 1 "VBUS" H 10115 1873 50  0000 C CNN
+F 2 "" H 10100 1700 50  0001 C CNN
+F 3 "" H 10100 1700 50  0001 C CNN
+	1    10100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DMN63D8LDW-7:DMN63D8LDW-7 Q2
+U 1 1 5D772CAF
+P 8750 2850
+F 0 "Q2" H 9200 3115 50  0000 C CNN
+F 1 "DMN63D8LDW-7" H 9200 3024 50  0000 C CNN
+F 2 "" H 9500 2950 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMN63D8LDW.pdf" H 9500 2850 50  0001 L CNN
+F 4 "Diodes Inc DMN63D8LDW-7 Dual N-channel MOSFET Transistor, 0.26 A, 30 V, 6-Pin SOT-363" H 9500 2750 50  0001 L CNN "Description"
+F 5 "1.1" H 9500 2650 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 9500 2550 50  0001 L CNN "Manufacturer_Name"
+F 7 "DMN63D8LDW-7" H 9500 2450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "621-DMN63D8LDW-7" H 9500 2350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMN63D8LDW-7" H 9500 2250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "8222598P" H 9500 2150 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/8222598P" H 9500 2050 50  0001 L CNN "RS Price/Stock"
+F 12 "70551252" H 9500 1950 50  0001 L CNN "Allied_Number"
+F 13 "https://www.alliedelec.com/diodes-inc-dmn63d8ldw-7/70551252/" H 9500 1850 50  0001 L CNN "Allied Price/Stock"
+	1    8750 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2850 8250 2850
+$Comp
+L Device:R R6
+U 1 1 5D772CB6
+P 8250 3000
+F 0 "R6" H 8320 3046 50  0000 L CNN
+F 1 "10K" H 8320 2955 50  0000 L CNN
+F 2 "" V 8180 3000 50  0001 C CNN
+F 3 "~" H 8250 3000 50  0001 C CNN
+	1    8250 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 2850
+Wire Wire Line
+	8250 2850 8750 2850
+Wire Wire Line
+	8750 2950 8500 2950
+Wire Wire Line
+	8500 2950 8500 3150
+Wire Wire Line
+	8500 3150 8250 3150
+$Comp
+L power:+3.3V #PWR0113
+U 1 1 5D772CC1
+P 8100 3150
+F 0 "#PWR0113" H 8100 3000 50  0001 C CNN
+F 1 "+3.3V" V 8115 3278 50  0000 L CNN
+F 2 "" H 8100 3150 50  0001 C CNN
+F 3 "" H 8100 3150 50  0001 C CNN
+	1    8100 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 3150 8250 3150
+Connection ~ 8250 3150
+Text GLabel 10650 2850 2    50   Input Italic 10
+DBG0
+Wire Wire Line
+	9650 2850 10100 2850
+$Comp
+L Device:R R12
+U 1 1 5D772CCB
+P 10100 2650
+F 0 "R12" H 10170 2696 50  0000 L CNN
+F 1 "10K" H 10170 2605 50  0000 L CNN
+F 2 "" V 10030 2650 50  0001 C CNN
+F 3 "~" H 10100 2650 50  0001 C CNN
+	1    10100 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2800 10100 2850
+Connection ~ 10100 2850
+Wire Wire Line
+	10100 2850 10650 2850
+Wire Wire Line
+	9650 3050 9650 3250
+Wire Wire Line
+	9650 3250 8250 3250
+Wire Wire Line
+	9650 2950 9700 2950
+$Comp
+L Device:R R7
+U 1 1 5D772CD7
+P 8250 3400
+F 0 "R7" H 8320 3446 50  0000 L CNN
+F 1 "10K" H 8320 3355 50  0000 L CNN
+F 2 "" V 8180 3400 50  0001 C CNN
+F 3 "~" H 8250 3400 50  0001 C CNN
+	1    8250 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 3250
+Wire Wire Line
+	8250 3250 7850 3250
+Wire Wire Line
+	9700 3550 8250 3550
+Wire Wire Line
+	9700 2950 9700 3550
+$Comp
+L power:+3.3V #PWR0114
+U 1 1 5D772CE1
+P 8100 3550
+F 0 "#PWR0114" H 8100 3400 50  0001 C CNN
+F 1 "+3.3V" V 8115 3678 50  0000 L CNN
+F 2 "" H 8100 3550 50  0001 C CNN
+F 3 "" H 8100 3550 50  0001 C CNN
+	1    8100 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 3550 8250 3550
+Connection ~ 8250 3550
+Text GLabel 10650 3400 2    50   Input Italic 10
+DBG1
+Wire Wire Line
+	8750 3400 10100 3400
+Wire Wire Line
+	8750 3050 8750 3400
+$Comp
+L Device:R R13
+U 1 1 5D772CEC
+P 10100 3250
+F 0 "R13" H 10170 3296 50  0000 L CNN
+F 1 "10K" H 10170 3205 50  0000 L CNN
+F 2 "" V 10030 3250 50  0001 C CNN
+F 3 "~" H 10100 3250 50  0001 C CNN
+	1    10100 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 10100 3400
+Wire Wire Line
+	10100 3400 10650 3400
+$Comp
+L power:VBUS #PWR0115
+U 1 1 5D772CF4
+P 10100 3100
+F 0 "#PWR0115" H 10100 2950 50  0001 C CNN
+F 1 "VBUS" H 10115 3273 50  0000 C CNN
+F 2 "" H 10100 3100 50  0001 C CNN
+F 3 "" H 10100 3100 50  0001 C CNN
+	1    10100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR0116
+U 1 1 5D774B30
+P 10100 2500
+F 0 "#PWR0116" H 10100 2350 50  0001 C CNN
+F 1 "VBUS" H 10115 2673 50  0000 C CNN
+F 2 "" H 10100 2500 50  0001 C CNN
+F 3 "" H 10100 2500 50  0001 C CNN
+	1    10100 2500
+	1    0    0    -1  
+$EndComp
+Text Label 7850 2850 2    50   Italic 10
+S0
+Text Label 7850 3250 2    50   Italic 10
+S0_3_CLK
+$Comp
+L DMN63D8LDW-7:DMN63D8LDW-7 Q3
+U 1 1 5D77F3F6
+P 8750 4200
+F 0 "Q3" H 9200 4465 50  0000 C CNN
+F 1 "DMN63D8LDW-7" H 9200 4374 50  0000 C CNN
+F 2 "" H 9500 4300 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMN63D8LDW.pdf" H 9500 4200 50  0001 L CNN
+F 4 "Diodes Inc DMN63D8LDW-7 Dual N-channel MOSFET Transistor, 0.26 A, 30 V, 6-Pin SOT-363" H 9500 4100 50  0001 L CNN "Description"
+F 5 "1.1" H 9500 4000 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 9500 3900 50  0001 L CNN "Manufacturer_Name"
+F 7 "DMN63D8LDW-7" H 9500 3800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "621-DMN63D8LDW-7" H 9500 3700 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMN63D8LDW-7" H 9500 3600 50  0001 L CNN "Mouser Price/Stock"
+F 10 "8222598P" H 9500 3500 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/8222598P" H 9500 3400 50  0001 L CNN "RS Price/Stock"
+F 12 "70551252" H 9500 3300 50  0001 L CNN "Allied_Number"
+F 13 "https://www.alliedelec.com/diodes-inc-dmn63d8ldw-7/70551252/" H 9500 3200 50  0001 L CNN "Allied Price/Stock"
+	1    8750 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 4200 8250 4200
+$Comp
+L Device:R R8
+U 1 1 5D77F3FD
+P 8250 4350
+F 0 "R8" H 8320 4396 50  0000 L CNN
+F 1 "10K" H 8320 4305 50  0000 L CNN
+F 2 "" V 8180 4350 50  0001 C CNN
+F 3 "~" H 8250 4350 50  0001 C CNN
+	1    8250 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 4200
+Wire Wire Line
+	8250 4200 8750 4200
+Wire Wire Line
+	8750 4300 8500 4300
+Wire Wire Line
+	8500 4300 8500 4500
+Wire Wire Line
+	8500 4500 8250 4500
+$Comp
+L power:+3.3V #PWR0117
+U 1 1 5D77F408
+P 8100 4500
+F 0 "#PWR0117" H 8100 4350 50  0001 C CNN
+F 1 "+3.3V" V 8115 4628 50  0000 L CNN
+F 2 "" H 8100 4500 50  0001 C CNN
+F 3 "" H 8100 4500 50  0001 C CNN
+	1    8100 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 4500 8250 4500
+Connection ~ 8250 4500
+Text GLabel 10650 4200 2    50   Input Italic 10
+DBG2
+Wire Wire Line
+	9650 4200 10100 4200
+$Comp
+L Device:R R14
+U 1 1 5D77F412
+P 10100 4000
+F 0 "R14" H 10170 4046 50  0000 L CNN
+F 1 "10K" H 10170 3955 50  0000 L CNN
+F 2 "" V 10030 4000 50  0001 C CNN
+F 3 "~" H 10100 4000 50  0001 C CNN
+	1    10100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 4150 10100 4200
+Connection ~ 10100 4200
+Wire Wire Line
+	10100 4200 10650 4200
+Text Label 7850 4200 2    50   Italic 10
+DBG2_GPIO
+$Comp
+L power:VBUS #PWR0118
+U 1 1 5D78255B
+P 10100 3850
+F 0 "#PWR0118" H 10100 3700 50  0001 C CNN
+F 1 "VBUS" H 10115 4023 50  0000 C CNN
+F 2 "" H 10100 3850 50  0001 C CNN
+F 3 "" H 10100 3850 50  0001 C CNN
+	1    10100 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 4300 9900 4300
+Wire Wire Line
+	9900 4300 9900 4950
+Wire Wire Line
+	9900 4950 7850 4950
+$Comp
+L power:GND #PWR0119
+U 1 1 5D78626A
+P 9650 4400
+F 0 "#PWR0119" H 9650 4150 50  0001 C CNN
+F 1 "GND" H 9655 4227 50  0000 C CNN
+F 2 "" H 9650 4400 50  0001 C CNN
+F 3 "" H 9650 4400 50  0001 C CNN
+	1    9650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 4400 8750 4750
+$Comp
+L Device:R R9
+U 1 1 5D789F51
+P 9100 4750
+F 0 "R9" V 8893 4750 50  0000 C CNN
+F 1 "1K" V 8984 4750 50  0000 C CNN
+F 2 "" V 9030 4750 50  0001 C CNN
+F 3 "~" H 9100 4750 50  0001 C CNN
+	1    9100 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 4750 10650 4750
+Wire Wire Line
+	8750 4750 8950 4750
+Text Label 7850 4950 2    50   Italic 10
+DBG3_CTRL
+Wire Bus Line
+	7850 1450 7850 4950
+Wire Notes Line
+	7400 700  7400 5200
+Wire Notes Line
+	7400 5200 11100 5200
+Wire Notes Line
+	11100 5200 11100 700 
+Wire Notes Line
+	11100 700  7400 700 
+Text Notes 7400 650  0    79   Italic 16
+DEBUGGER\n
+$Comp
+L ATMEGA4809-AFR:ATMEGA4809-AFR U1
+U 1 1 5D744276
+P -3500 4500
+F 0 "U1" H -3500 6167 50  0000 C CNN
+F 1 "ATMEGA4809-AFR" H -3500 6076 50  0000 C CNN
+F 2 "" H -3500 4500 50  0001 L BNN
+F 3 "" H -3500 4500 50  0001 L BNN
+F 4 "None" H -3500 4500 50  0001 L BNN "Field4"
+F 5 "Microchip" H -3500 4500 50  0001 L BNN "Field5"
+F 6 "20MHz 48KB TQFP48 Ind 125C Green T&R" H -3500 4500 50  0001 L BNN "Field6"
+F 7 "ATMEGA4809-AFR" H -3500 4500 50  0001 L BNN "Field7"
+F 8 "TQFP-48 Microchip" H -3500 4500 50  0001 L BNN "Field8"
+	1    -3500 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1300 3100 -900 3100
+Wire Wire Line
+	-1300 3200 -900 3200
+Wire Wire Line
+	-1300 3400 -900 3400
+Wire Wire Line
+	-1300 3500 -900 3500
+Wire Wire Line
+	-1300 3600 -900 3600
+Wire Wire Line
+	-1300 3700 -900 3700
+Wire Wire Line
+	-1300 3800 -900 3800
+Wire Wire Line
+	-1300 3900 -900 3900
+Wire Wire Line
+	-1300 4000 -900 4000
+Wire Wire Line
+	-1300 4100 -900 4100
+Wire Wire Line
+	-1300 4300 -900 4300
+Wire Wire Line
+	-1300 4400 -900 4400
+Wire Wire Line
+	-1300 4500 -900 4500
+Wire Wire Line
+	-1300 4600 -900 4600
+Wire Wire Line
+	-1300 4800 -900 4800
+Wire Wire Line
+	-1300 4900 -900 4900
+Wire Wire Line
+	-1300 5000 -900 5000
+Wire Wire Line
+	-1300 5100 -900 5100
+Wire Wire Line
+	-1300 5200 -900 5200
+Wire Wire Line
+	-1300 5300 -900 5300
+Wire Wire Line
+	-1300 5400 -900 5400
+$Comp
+L power:VDD #PWR0120
+U 1 1 5D7B034B
+P -900 3100
+F 0 "#PWR0120" H -900 2950 50  0001 C CNN
+F 1 "VDD" V -883 3228 50  0000 L CNN
+F 2 "" H -900 3100 50  0001 C CNN
+F 3 "" H -900 3100 50  0001 C CNN
+	1    -900 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VDDA #PWR0121
+U 1 1 5D7B0F92
+P -900 3200
+F 0 "#PWR0121" H -900 3050 50  0001 C CNN
+F 1 "VDDA" V -883 3328 50  0000 L CNN
+F 2 "" H -900 3200 50  0001 C CNN
+F 3 "" H -900 3200 50  0001 C CNN
+	1    -900 3200
+	0    1    1    0   
+$EndComp
+Text Label -900 3400 0    50   Italic 10
+PD0
+Text Label -900 3500 0    50   Italic 10
+PD1
+Text Label -900 3600 0    50   Italic 10
+PD2
+Text Label -900 3700 0    50   Italic 10
+PD3
+Text Label -900 3800 0    50   Italic 10
+PD4
+Text Label -900 3900 0    50   Italic 10
+PD5
+Text Label -900 4000 0    50   Italic 10
+PD6
+Text Label -900 4100 0    50   Italic 10
+PD7
+Text Label -900 4300 0    50   Italic 10
+PE0
+Text Label -900 4400 0    50   Italic 10
+PE1
+Text Label -900 4500 0    50   Italic 10
+PE2
+Text Label -900 4600 0    50   Italic 10
+PE3
+Text Label -900 4800 0    50   Italic 10
+PF0
+Text Label -900 4900 0    50   Italic 10
+PF1
+Text Label -900 5000 0    50   Italic 10
+PF2
+Text Label -900 5100 0    50   Italic 10
+PF3
+Text Label -900 5200 0    50   Italic 10
+PF4
+Text Label -900 5300 0    50   Italic 10
+PF5
+Text Label -900 5400 0    50   Italic 10
+PF6
+Text Label -900 5600 0    50   Italic 10
+UPDI
+Wire Wire Line
+	-1300 5600 -900 5600
+$Comp
+L power:GND #PWR0122
+U 1 1 5D7BE643
+P -1300 5900
+F 0 "#PWR0122" H -1300 5650 50  0001 C CNN
+F 1 "GND" H -1295 5727 50  0000 C CNN
+F 2 "" H -1300 5900 50  0001 C CNN
+F 3 "" H -1300 5900 50  0001 C CNN
+	1    -1300 5900
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	-6300 3250 -6300 5750
+Wire Wire Line
+	-5700 3400 -6300 3400
+Wire Wire Line
+	-5700 3500 -6300 3500
+Wire Wire Line
+	-5700 3600 -6300 3600
+Wire Wire Line
+	-5700 3700 -6300 3700
+Wire Wire Line
+	-5700 3800 -6300 3800
+Wire Wire Line
+	-5700 3900 -6300 3900
+Wire Wire Line
+	-5700 4000 -6300 4000
+Wire Wire Line
+	-5700 4100 -6300 4100
+Wire Wire Line
+	-5700 4300 -6300 4300
+Wire Wire Line
+	-5700 4400 -6300 4400
+Wire Wire Line
+	-5700 4500 -6300 4500
+Wire Wire Line
+	-5700 4600 -6300 4600
+Wire Wire Line
+	-5700 4700 -6300 4700
+Wire Wire Line
+	-5700 4800 -6300 4800
+Wire Wire Line
+	-5700 5000 -6300 5000
+Wire Wire Line
+	-5700 5100 -6300 5100
+Wire Wire Line
+	-5700 5200 -6300 5200
+Wire Wire Line
+	-5700 5300 -6300 5300
+Wire Wire Line
+	-5700 5400 -6300 5400
+Wire Wire Line
+	-5700 5500 -6300 5500
+Wire Wire Line
+	-5700 5600 -6300 5600
+Wire Wire Line
+	-5700 5700 -6300 5700
+Text Label -6300 3400 2    50   Italic 10
+PA0
+Text Label -6300 3500 2    50   Italic 10
+PA1
+Text Label -6300 3600 2    50   Italic 10
+PA2
+Text Label -6300 3700 2    50   Italic 10
+PA3
+Text Label -6300 3800 2    50   Italic 10
+PA4
+Text Label -6300 3900 2    50   Italic 10
+PA5
+Text Label -6300 4000 2    50   Italic 10
+PA6
+Text Label -6300 4100 2    50   Italic 10
+PA7
+Text Label -6300 4300 2    50   Italic 10
+PB0
+Text Label -6300 4400 2    50   Italic 10
+PB1
+Text Label -6300 4500 2    50   Italic 10
+PB2
+Text Label -6300 4600 2    50   Italic 10
+PB3
+Text Label -6300 4700 2    50   Italic 10
+PB4
+Text Label -6300 4800 2    50   Italic 10
+PB5
+Text Label -6300 5000 2    50   Italic 10
+PC0
+Text Label -6300 5100 2    50   Italic 10
+PC1
+Text Label -6300 5200 2    50   Italic 10
+PC2
+Text Label -6300 5300 2    50   Italic 10
+PC3
+Text Label -6300 5400 2    50   Italic 10
+PC4
+Text Label -6300 5500 2    50   Italic 10
+PC5
+Text Label -6300 5600 2    50   Italic 10
+PC6
+Text Label -6300 5700 2    50   Italic 10
+PC7
+$Comp
+L Device:C C2
+U 1 1 5D8650C3
+P -5700 1200
+F 0 "C2" H -5585 1246 50  0000 L CNN
+F 1 "100nF" H -5585 1155 50  0000 L CNN
+F 2 "" H -5662 1050 50  0001 C CNN
+F 3 "~" H -5700 1200 50  0001 C CNN
+	1    -5700 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5700 1350 -5700 1550
+Wire Wire Line
+	-5700 1050 -5700 850 
+$Comp
+L power:GND #PWR0123
+U 1 1 5D886760
+P -5700 1550
+F 0 "#PWR0123" H -5700 1300 50  0001 C CNN
+F 1 "GND" H -5695 1377 50  0000 C CNN
+F 2 "" H -5700 1550 50  0001 C CNN
+F 3 "" H -5700 1550 50  0001 C CNN
+	1    -5700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0124
+U 1 1 5D887292
+P -5700 850
+F 0 "#PWR0124" H -5700 700 50  0001 C CNN
+F 1 "VDD" H -5683 1023 50  0000 C CNN
+F 2 "" H -5700 850 50  0001 C CNN
+F 3 "" H -5700 850 50  0001 C CNN
+	1    -5700 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5D889E36
+P -5000 1200
+F 0 "C3" H -4885 1246 50  0000 L CNN
+F 1 "100nF" H -4885 1155 50  0000 L CNN
+F 2 "" H -4962 1050 50  0001 C CNN
+F 3 "~" H -5000 1200 50  0001 C CNN
+	1    -5000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 5D88AB7C
+P -5000 1550
+F 0 "#PWR0125" H -5000 1300 50  0001 C CNN
+F 1 "GND" H -4995 1377 50  0000 C CNN
+F 2 "" H -5000 1550 50  0001 C CNN
+F 3 "" H -5000 1550 50  0001 C CNN
+	1    -5000 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5000 1350 -5000 1550
+$Comp
+L Device:L L1
+U 1 1 5D89D6BD
+P -5000 800
+F 0 "L1" H -4947 846 50  0000 L CNN
+F 1 "L200" H -4947 755 50  0000 L CNN
+F 2 "" H -5000 800 50  0001 C CNN
+F 3 "~" H -5000 800 50  0001 C CNN
+	1    -5000 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR0126
+U 1 1 5D89DDEF
+P -5000 650
+F 0 "#PWR0126" H -5000 500 50  0001 C CNN
+F 1 "VBUS" H -4985 823 50  0000 C CNN
+F 2 "" H -5000 650 50  0001 C CNN
+F 3 "" H -5000 650 50  0001 C CNN
+	1    -5000 650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5000 1050 -5000 1000
+$Comp
+L power:VDDA #PWR0127
+U 1 1 5D8AF5C6
+P -5100 1000
+F 0 "#PWR0127" H -5100 850 50  0001 C CNN
+F 1 "VDDA" V -5082 1128 50  0000 L CNN
+F 2 "" H -5100 1000 50  0001 C CNN
+F 3 "" H -5100 1000 50  0001 C CNN
+	1    -5100 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-5100 1000 -5000 1000
+Connection ~ -5000 1000
+Wire Wire Line
+	-5000 1000 -5000 950 
+Wire Notes Line
+	-4600 1850 -4600 400 
+Wire Bus Line
+	-900 3400 -900 5400
+Wire Bus Line
+	-4100 700  -4100 1600
+$Comp
+L Device:Crystal Y1
+U 1 1 5D8E2705
+P -3450 1200
+F 0 "Y1" V -3496 1331 50  0000 L CNN
+F 1 "Crystal" V -3600 1100 50  0000 L CNN
+F 2 "" H -3450 1200 50  0001 C CNN
+F 3 "~" H -3450 1200 50  0001 C CNN
+	1    -3450 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-3450 1050 -3450 800 
+Wire Wire Line
+	-3450 800  -4100 800 
+Wire Wire Line
+	-3450 1350 -3450 1500
+Wire Wire Line
+	-3450 1500 -4100 1500
+Text Label -4100 800  2    50   Italic 10
+PF1
+Text Label -4100 1500 2    50   Italic 10
+PF0
+$Comp
+L power:GND #PWR0128
+U 1 1 5D90F9A3
+P -3050 850
+F 0 "#PWR0128" H -3050 600 50  0001 C CNN
+F 1 "GND" H -3045 677 50  0000 C CNN
+F 2 "" H -3050 850 50  0001 C CNN
+F 3 "" H -3050 850 50  0001 C CNN
+	1    -3050 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 5D910CA8
+P -3050 1550
+F 0 "#PWR0129" H -3050 1300 50  0001 C CNN
+F 1 "GND" H -3045 1377 50  0000 C CNN
+F 2 "" H -3050 1550 50  0001 C CNN
+F 3 "" H -3050 1550 50  0001 C CNN
+	1    -3050 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3050 1500 -3050 1550
+Wire Wire Line
+	-3050 800  -3050 850 
+Wire Notes Line
+	-4300 400  -4300 1850
+Wire Notes Line
+	-4300 1850 -2900 1850
+Wire Notes Line
+	-2900 400  -4300 400 
+Wire Notes Line
+	-2900 400  -2900 1850
+Text Notes -4950 450  2    79   Italic 16
+FILTER CAPACITOR\n\n
+Text Notes -3300 300  2    79   Italic 16
+EXTERNAL CLOCK\n
+Wire Notes Line
+	-6850 6400 -200 6400
+Wire Notes Line
+	-200 6400 -200 2350
+Wire Notes Line
+	-200 2350 -6850 2350
+Wire Notes Line
+	-6850 2350 -6850 6400
+Text Notes -5700 2200 2    118  Italic 24
+ATMEGA4809\n
+$Comp
+L power:VBUS #PWR0130
+U 1 1 5D94368D
+P -5950 850
+F 0 "#PWR0130" H -5950 700 50  0001 C CNN
+F 1 "VBUS" H -5935 1023 50  0000 C CNN
+F 2 "" H -5950 850 50  0001 C CNN
+F 3 "" H -5950 850 50  0001 C CNN
+	1    -5950 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5D944125
+P -5950 1200
+F 0 "C1" H -6150 1250 50  0000 L CNN
+F 1 "2.2uF" H -6250 1100 50  0000 L CNN
+F 2 "" H -5912 1050 50  0001 C CNN
+F 3 "~" H -5950 1200 50  0001 C CNN
+	1    -5950 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5950 850  -5950 950 
+$Comp
+L power:GND #PWR0131
+U 1 1 5D94EC90
+P -5950 1550
+F 0 "#PWR0131" H -5950 1300 50  0001 C CNN
+F 1 "GND" H -5945 1377 50  0000 C CNN
+F 2 "" H -5950 1550 50  0001 C CNN
+F 3 "" H -5950 1550 50  0001 C CNN
+	1    -5950 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5950 1350 -5950 1550
+Wire Notes Line
+	-6250 400  -6250 1850
+Wire Notes Line
+	-6250 1850 -4600 1850
+Wire Notes Line
+	-6250 400  -4600 400 
+$Comp
+L power:VBUS #PWR0132
+U 1 1 5D9639B6
+P -2350 600
+F 0 "#PWR0132" H -2350 450 50  0001 C CNN
+F 1 "VBUS" H -2335 773 50  0000 C CNN
+F 2 "" H -2350 600 50  0001 C CNN
+F 3 "" H -2350 600 50  0001 C CNN
+	1    -2350 600 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2350 600  -2350 850 
+Wire Wire Line
+	-2350 850  -1850 850 
+$Comp
+L Device:LED D1
+U 1 1 5D96E834
+P -1700 850
+F 0 "D1" H -1707 595 50  0000 C CNN
+F 1 "LED" H -1707 686 50  0000 C CNN
+F 2 "" H -1700 850 50  0001 C CNN
+F 3 "~" H -1700 850 50  0001 C CNN
+	1    -1700 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D96F951
+P -1300 850
+F 0 "R1" V -1507 850 50  0000 C CNN
+F 1 "1K" V -1416 850 50  0000 C CNN
+F 2 "" V -1370 850 50  0001 C CNN
+F 3 "~" H -1300 850 50  0001 C CNN
+	1    -1300 850 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-1550 850  -1450 850 
+Text Label -850 850  0    50   Italic 10
+PF5
+Wire Wire Line
+	-1150 850  -850 850 
+Wire Notes Line
+	-2500 1850 -400 1850
+Wire Notes Line
+	-400 1850 -400 350 
+Wire Notes Line
+	-400 350  -2500 350 
+Wire Notes Line
+	-2500 350  -2500 1850
+Text Notes -1900 300  2    79   Italic 16
+USER LED
+$Comp
+L Device:C C4
+U 1 1 5D99C0AE
+P -3250 800
+F 0 "C4" V -3502 800 50  0000 C CNN
+F 1 "13PF" V -3411 800 50  0000 C CNN
+F 2 "" H -3212 650 50  0001 C CNN
+F 3 "~" H -3250 800 50  0001 C CNN
+	1    -3250 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5D99CA4D
+P -3250 1500
+F 0 "C5" V -3502 1500 50  0000 C CNN
+F 1 "10PF" V -3411 1500 50  0000 C CNN
+F 2 "" H -3212 1350 50  0001 C CNN
+F 3 "~" H -3250 1500 50  0001 C CNN
+	1    -3250 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-3450 800  -3400 800 
+Connection ~ -3450 800 
+Wire Wire Line
+	-3100 800  -3050 800 
+Wire Wire Line
+	-3450 1500 -3400 1500
+Connection ~ -3450 1500
+Wire Wire Line
+	-3100 1500 -3050 1500
+$Comp
+L power:VBUS #PWR0133
+U 1 1 5D7538B7
+P -2350 1100
+F 0 "#PWR0133" H -2350 950 50  0001 C CNN
+F 1 "VBUS" H -2335 1273 50  0000 C CNN
+F 2 "" H -2350 1100 50  0001 C CNN
+F 3 "" H -2350 1100 50  0001 C CNN
+	1    -2350 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5D7545CC
+P -1700 1250
+F 0 "D2" H -1707 995 50  0000 C CNN
+F 1 "LED" H -1707 1086 50  0000 C CNN
+F 2 "" H -1700 1250 50  0001 C CNN
+F 3 "~" H -1700 1250 50  0001 C CNN
+	1    -1700 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D755777
+P -1300 1250
+F 0 "R2" V -1507 1250 50  0000 C CNN
+F 1 "1k" V -1416 1250 50  0000 C CNN
+F 2 "" V -1370 1250 50  0001 C CNN
+F 3 "~" H -1300 1250 50  0001 C CNN
+	1    -1300 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2350 1100 -2350 1250
+Wire Wire Line
+	-2350 1250 -1850 1250
+Wire Wire Line
+	-1550 1250 -1450 1250
+Wire Wire Line
+	-1150 1250 -850 1250
+Text Label -850 1250 0    50   Italic 10
+PF4
+Wire Notes Line
+	850  7600 6550 7600
+Wire Notes Line
+	6550 7600 6550 4750
+Wire Notes Line
+	6550 4750 850  4750
+Wire Notes Line
+	850  4750 850  7600
+$Comp
+L power:+3.3V #PWR0134
+U 1 1 5D736899
+P 2950 2950
+F 0 "#PWR0134" H 2950 2800 50  0001 C CNN
+F 1 "+3.3V" V 2965 3078 50  0000 L CNN
+F 2 "" H 2950 2950 50  0001 C CNN
+F 3 "" H 2950 2950 50  0001 C CNN
+	1    2950 2950
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	3200 3700 3200 2500
+Text Notes 850  4650 0    79   Italic 16
+TESTPOINT
+Wire Bus Line
+	-3300 7600 -3300 10600
+Wire Bus Line
+	-3300 10600 -800 10600
+Wire Bus Line
+	-800 10600 -800 7650
+Wire Wire Line
+	-2700 7900 -3300 7900
+Wire Wire Line
+	-2700 8000 -3300 8000
+Wire Wire Line
+	-2700 8100 -3300 8100
+Wire Wire Line
+	-2700 8200 -3300 8200
+Wire Wire Line
+	-2700 8300 -3300 8300
+Wire Wire Line
+	-2700 8400 -3300 8400
+Wire Wire Line
+	-2700 8500 -3300 8500
+Wire Wire Line
+	-2700 8600 -3300 8600
+Wire Wire Line
+	-2700 8700 -3300 8700
+Wire Wire Line
+	-2700 8800 -3300 8800
+Wire Wire Line
+	-2700 9300 -3300 9300
+Wire Wire Line
+	-2700 9400 -3300 9400
+Wire Wire Line
+	-2700 9500 -3300 9500
+Wire Wire Line
+	-2700 9600 -3300 9600
+Wire Wire Line
+	-2700 9700 -3300 9700
+Wire Wire Line
+	-2700 9800 -3300 9800
+Wire Wire Line
+	-2700 10100 -3300 10100
+Wire Wire Line
+	-2700 10200 -3300 10200
+Wire Wire Line
+	-2700 10300 -3300 10300
+Wire Wire Line
+	-2700 10400 -3300 10400
+Wire Wire Line
+	-1400 7900 -800 7900
+Wire Wire Line
+	-1400 8000 -800 8000
+Wire Wire Line
+	-1400 8300 -800 8300
+Wire Wire Line
+	-1400 8400 -800 8400
+Wire Wire Line
+	-1400 8500 -800 8500
+Wire Wire Line
+	-1400 8600 -800 8600
+Wire Wire Line
+	-1400 8700 -800 8700
+Wire Wire Line
+	-1400 8800 -800 8800
+Wire Wire Line
+	-1400 9100 -800 9100
+Wire Wire Line
+	-1400 9200 -800 9200
+Wire Wire Line
+	-1400 9300 -800 9300
+Wire Wire Line
+	-1400 9400 -800 9400
+Wire Wire Line
+	-1400 9500 -800 9500
+Wire Wire Line
+	-1400 9600 -800 9600
+Wire Wire Line
+	-1400 9700 -800 9700
+Wire Wire Line
+	-1400 9800 -800 9800
+Wire Wire Line
+	-1400 9900 -800 9900
+Wire Wire Line
+	-1400 10100 -800 10100
+Wire Wire Line
+	-1400 10200 -800 10200
+Wire Wire Line
+	-1400 10300 -800 10300
+Wire Wire Line
+	-1400 10400 -800 10400
+$Comp
+L Connector:Conn_01x28_Female J2
+U 1 1 5D7E7325
+P -1600 9000
+F 0 "J2" H -1708 10485 50  0000 C CNN
+F 1 "Conn_01x28_Female" H -1708 10394 50  0000 C CNN
+F 2 "" H -1600 9000 50  0001 C CNN
+F 3 "~" H -1600 9000 50  0001 C CNN
+	1    -1600 9000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-1400 8900 -800 8900
+Wire Wire Line
+	-3300 8900 -2700 8900
+Wire Wire Line
+	-2700 9200 -3300 9200
+Text Label -3300 9900 2    50   Italic 10
+PB3
+Text Label -3300 9800 2    50   Italic 10
+PB2
+Text Label -3300 9700 2    50   Italic 10
+PB1
+Text Label -3300 9600 2    50   Italic 10
+PB0
+Text Label -3300 9500 2    50   Italic 10
+PC3
+Text Label -3300 9400 2    50   Italic 10
+PC2
+Text Label -3300 9300 2    50   Italic 10
+PC1
+Text Label -3300 9200 2    50   Italic 10
+PC0
+Text Label -3300 9000 2    50   Italic 10
+PA7
+Text Label -3300 8900 2    50   Italic 10
+PA6
+Text Label -3300 8800 2    50   Italic 10
+PA5
+Text Label -3300 8700 2    50   Italic 10
+PA4
+Text Label -3300 8600 2    50   Italic 10
+PA3
+Text Label -3300 8500 2    50   Italic 10
+PA2
+Text Label -3300 8400 2    50   Italic 10
+PA1
+Text Label -3300 8300 2    50   Italic 10
+PA0
+Text Label -3300 8200 2    50   Italic 10
+PF2
+Text Label -3300 8100 2    50   Italic 10
+PF3
+Text Label -3300 8000 2    50   Italic 10
+PB1
+Text Label -3300 7900 2    50   Italic 10
+PB0
+Wire Wire Line
+	-3300 9000 -2700 9000
+Wire Wire Line
+	-2700 9100 -3000 9100
+Wire Wire Line
+	-2700 9900 -3300 9900
+Text Label -3300 10100 2    50   Italic 10
+PE0
+Text Label -3300 10200 2    50   Italic 10
+PE1
+Text Label -3300 10300 2    50   Italic 10
+PE2
+Text Label -3300 10400 2    50   Italic 10
+PE3
+$Comp
+L power:GND #PWR0139
+U 1 1 5DCBB7AF
+P -3000 10000
+F 0 "#PWR0139" H -3000 9750 50  0001 C CNN
+F 1 "GND" H -2995 9827 50  0000 C CNN
+F 2 "" H -3000 10000 50  0001 C CNN
+F 3 "" H -3000 10000 50  0001 C CNN
+	1    -3000 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0140
+U 1 1 5DCBC86D
+P -3000 9100
+F 0 "#PWR0140" H -3000 8850 50  0001 C CNN
+F 1 "GND" H -2995 8927 50  0000 C CNN
+F 2 "" H -3000 9100 50  0001 C CNN
+F 3 "" H -3000 9100 50  0001 C CNN
+	1    -3000 9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2700 10000 -3000 10000
+$Comp
+L power:VBUS #PWR0141
+U 1 1 5DCD23C6
+P -1050 7750
+F 0 "#PWR0141" H -1050 7600 50  0001 C CNN
+F 1 "VBUS" H -1035 7923 50  0000 C CNN
+F 2 "" H -1050 7750 50  0001 C CNN
+F 3 "" H -1050 7750 50  0001 C CNN
+	1    -1050 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x28_Female J1
+U 1 1 5D7E26BD
+P -2500 9000
+F 0 "J1" H -2472 8976 50  0000 L CNN
+F 1 "Conn_01x28_Female" H -2472 8885 50  0000 L CNN
+F 2 "" H -2500 9000 50  0001 C CNN
+F 3 "~" H -2500 9000 50  0001 C CNN
+	1    -2500 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1400 7800 -1050 7800
+Wire Wire Line
+	-1050 7800 -1050 7750
+Text Label -800 7900 0    50   Italic 10
+PF6
+Text Label -800 8000 0    50   Italic 10
+UPDI
+$Comp
+L power:GND #PWR0142
+U 1 1 5DD022EB
+P -1100 8100
+F 0 "#PWR0142" H -1100 7850 50  0001 C CNN
+F 1 "GND" H -1095 7927 50  0000 C CNN
+F 2 "" H -1100 8100 50  0001 C CNN
+F 3 "" H -1100 8100 50  0001 C CNN
+	1    -1100 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1400 8100 -1300 8100
+Wire Wire Line
+	-1400 8200 -1300 8200
+Wire Wire Line
+	-1300 8200 -1300 8100
+Connection ~ -1300 8100
+Wire Wire Line
+	-1300 8100 -1100 8100
+Text Label -800 9200 0    50   Italic 10
+PC7
+Text Label -800 9300 0    50   Italic 10
+PC6
+Text Label -800 9400 0    50   Italic 10
+PC5
+Text Label -800 9500 0    50   Italic 10
+PC4
+Text Label -800 8300 0    50   Italic 10
+PD7
+Text Label -800 8400 0    50   Italic 10
+PD6
+Text Label -800 8500 0    50   Italic 10
+PD5
+Text Label -800 8600 0    50   Italic 10
+PD4
+Text Label -800 8700 0    50   Italic 10
+PD3
+Text Label -800 8800 0    50   Italic 10
+PD2
+Text Label -800 8900 0    50   Italic 10
+PD1
+Text Label -800 9000 0    50   Italic 10
+PD0
+$Comp
+L power:GND #PWR0143
+U 1 1 5DD85B03
+P -1100 9000
+F 0 "#PWR0143" H -1100 8750 50  0001 C CNN
+F 1 "GND" H -1095 8827 50  0000 C CNN
+F 2 "" H -1100 9000 50  0001 C CNN
+F 3 "" H -1100 9000 50  0001 C CNN
+	1    -1100 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1400 9000 -1100 9000
+Text Label -800 9600 0    50   Italic 10
+PF1
+Text Label -800 9700 0    50   Italic 10
+PF0
+Text Label -800 9800 0    50   Italic 10
+PB5
+Text Label -800 9900 0    50   Italic 10
+PB4
+$Comp
+L power:GND #PWR0144
+U 1 1 5DD9D2C1
+P -1100 10000
+F 0 "#PWR0144" H -1100 9750 50  0001 C CNN
+F 1 "GND" H -1095 9827 50  0000 C CNN
+F 2 "" H -1100 10000 50  0001 C CNN
+F 3 "" H -1100 10000 50  0001 C CNN
+	1    -1100 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1400 10000 -1100 10000
+Text Label -800 10100 0    50   Italic 10
+PF5
+Text Label -800 10200 0    50   Italic 10
+PF4
+Text Label -800 10300 0    50   Italic 10
+PF3
+Text Label -800 10400 0    50   Italic 10
+PF2
+Wire Notes Line
+	-3900 10850 -250 10850
+Wire Notes Line
+	-250 10850 -250 7250
+Wire Notes Line
+	-250 7250 -3900 7250
+Wire Notes Line
+	-3900 7250 -3900 10850
+Text Notes -3800 7200 0    79   Italic 16
+BOARD ATMEGA4809\n\n
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5D7A6E42
+P -6550 750
+F 0 "TP1" H -6492 868 50  0000 L CNN
+F 1 "TestPoint" H -6492 777 50  0000 L CNN
+F 2 "" H -6350 750 50  0001 C CNN
+F 3 "~" H -6350 750 50  0001 C CNN
+	1    -6550 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6550 750  -6550 950 
+Wire Wire Line
+	-6550 950  -5950 950 
+Connection ~ -5950 950 
+Wire Wire Line
+	-5950 950  -5950 1050
+$Comp
+L Device:L L?
+U 1 1 5D7C5DBC
+P 750 1900
+F 0 "L?" H 803 1946 50  0000 L CNN
+F 1 "L" H 803 1855 50  0000 L CNN
+F 2 "" H 750 1900 50  0001 C CNN
+F 3 "~" H 750 1900 50  0001 C CNN
+	1    750  1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  2100 750  2100
+Wire Wire Line
+	750  2100 750  2050
+Wire Wire Line
+	850  1750 850  2100
+Connection ~ 850  2100
+Wire Notes Line
+	550  2350 3150 2350
+Wire Notes Line
+	3150 2350 3150 700 
+Wire Notes Line
+	550  700  550  2350
+$Comp
+L AP2112K-3.3TRG1:AP2112K-3.3TRG1 U2
+U 1 1 5D72B2E1
+P 2000 3150
+F 0 "U2" H 2000 3620 50  0000 C CNN
+F 1 "AP2112K-3.3TRG1" H 2000 3529 50  0000 C CNN
+F 2 "" H 2000 3150 50  0001 L BNN
+F 3 "" H 2000 3150 50  0001 L BNN
+F 4 "SOT-753 Diodes Inc." H 2000 3150 50  0001 L BNN "Field4"
+F 5 "AP2112K-3.3TRG1" H 2000 3150 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2000 3150 50  0001 L BNN "Field6"
+F 7 "Diodes Inc." H 2000 3150 50  0001 L BNN "Field7"
+F 8 "AP2112 Series 0.6 A 3.3 V Fixed Output SMT LDO Linear Regulator - SOT23-5" H 2000 3150 50  0001 L BNN "Field8"
+	1    2000 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2950 1050 2950
+Wire Wire Line
+	1500 3150 1300 3150
+Wire Wire Line
+	1300 3150 1300 2950
+Connection ~ 1300 2950
+Wire Wire Line
+	1300 2950 1500 2950
+$Comp
+L Device:C C6
+U 1 1 5D72E03E
+P 1050 3200
+F 0 "C6" H 1165 3246 50  0000 L CNN
+F 1 "1uF" H 1165 3155 50  0000 L CNN
+F 2 "" H 1088 3050 50  0001 C CNN
+F 3 "~" H 1050 3200 50  0001 C CNN
+	1    1050 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3050 1050 2950
+Connection ~ 1050 2950
+Wire Wire Line
+	1050 2950 1300 2950
+$Comp
+L power:GND #PWR0138
+U 1 1 5D72E723
+P 1050 3350
+F 0 "#PWR0138" H 1050 3100 50  0001 C CNN
+F 1 "GND" H 1055 3177 50  0000 C CNN
+F 2 "" H 1050 3350 50  0001 C CNN
+F 3 "" H 1050 3350 50  0001 C CNN
+	1    1050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0137
+U 1 1 5D72ECA8
+P 2500 3350
+F 0 "#PWR0137" H 2500 3100 50  0001 C CNN
+F 1 "GND" H 2505 3177 50  0000 C CNN
+F 2 "" H 2500 3350 50  0001 C CNN
+F 3 "" H 2500 3350 50  0001 C CNN
+	1    2500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5D72F2E8
+P 2700 3200
+F 0 "C9" H 2815 3246 50  0000 L CNN
+F 1 "1uF" H 2815 3155 50  0000 L CNN
+F 2 "" H 2738 3050 50  0001 C CNN
+F 3 "~" H 2700 3200 50  0001 C CNN
+	1    2700 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2950 2700 2950
+Wire Wire Line
+	2700 2950 2700 3050
+$Comp
+L power:GND #PWR0136
+U 1 1 5D72FEA5
+P 2700 3350
+F 0 "#PWR0136" H 2700 3100 50  0001 C CNN
+F 1 "GND" H 2705 3177 50  0000 C CNN
+F 2 "" H 2700 3350 50  0001 C CNN
+F 3 "" H 2700 3350 50  0001 C CNN
+	1    2700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR0135
+U 1 1 5D732AB2
+P 900 2950
+F 0 "#PWR0135" H 900 2800 50  0001 C CNN
+F 1 "VBUS" V 915 3077 50  0000 L CNN
+F 2 "" H 900 2950 50  0001 C CNN
+F 3 "" H 900 2950 50  0001 C CNN
+	1    900  2950
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	550  3700 3200 3700
+Wire Notes Line
+	3200 2500 550  2500
+Wire Wire Line
+	2950 2950 2700 2950
+Connection ~ 2700 2950
+Text Notes 550  2500 0    79   ~ 16
+REGULATOR 5V TO 3.3V\n
+Wire Notes Line
+	550  2500 550  3700
+$EndSCHEMATC

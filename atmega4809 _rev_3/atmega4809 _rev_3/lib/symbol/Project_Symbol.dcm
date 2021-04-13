@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMN63D8LDW
+F https://www.diodes.com/assets/Datasheets/DMN63D8LDW.pdf
+$ENDCMP
+#
+$CMP MBR120
+D Schottky Barrier Recifier Diode SOD-123 1A 20V
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "arduino mega")(type Github)(uri https://github.com/Alarm-Siren/arduino-kicad-library/tree/master/Arduino.pretty)(options "")(descr ""))
+)

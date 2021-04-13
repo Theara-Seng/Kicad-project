@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMN63D8LDW-7
+D Diodes Inc DMN63D8LDW-7 Dual N-channel MOSFET Transistor, 0.26 A, 30 V, 6-Pin SOT-363
+K
+F https://www.diodes.com/assets/Datasheets/DMN63D8LDW.pdf
+$ENDCMP
+#
+#End Doc Library

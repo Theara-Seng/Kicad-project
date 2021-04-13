@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Project_Symbol)(type Legacy)(uri ${KIPRJMOD}/lib/symbol/Project_Symbol.lib)(options "")(descr ""))
+  (lib (name atmega4809_rev_3-rescue)(type Legacy)(uri ${KIPRJMOD}/atmega4809_rev_3-rescue.lib)(options "")(descr ""))
+)

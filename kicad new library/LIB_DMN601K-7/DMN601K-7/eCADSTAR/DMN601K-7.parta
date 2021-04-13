@@ -1,0 +1,71 @@
+(Japanese_coding: sjis)
+(function "ECS_300557"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-01-11-16:09:24)
+    (utime 2018-05-24-11:05:09)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "DMN601K-7")
+)
+
+
+(pinAssign "ECS_300557"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-01-11-16:09:24)
+    (utime 2018-05-24-11:05:09)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "D") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_300557")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "DMN601K-7")
+)
+
+
+(part "DMN601K-7"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-01-11-16:09:24)
+    (utime 2018-05-24-11:05:09)
+    (packageRef "DMN601K-7")
+    (pinAssignRef "ECS_300557")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "D") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "U")
+    (property "description" "N-CHANNEL ENHANCEMENT MODE FIELD EFFECT TRANSISTOR")
+    (property "Manufacturer_Name" "Diodes Inc.")
+    (property "Manufacturer_Part_Number" "DMN601K-7")
+    (property "Mouser_Part_Number" "621-DMN601K-7")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMN601K-7")
+    (property "RS_Part_Number" "7082488P")
+    (property "RS_Price/Stock" "http://uk.rs-online.com/web/p/products/7082488P")
+    (property "Datasheet_Link" "")
+)
+
+

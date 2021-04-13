@@ -1,0 +1,18 @@
+.ATSAMD21E18A-AU :1 ;MICROCHIP - ATSAMD21E18A-AU - MCU, 32BIT, CORTEX-M0+, 48MHZ, TQFP-32
+QFP80P900X900X120-32N
+*STM IC
+*NGS
+*PLB 1="PA00" 2="PA01" 3="PA02" 4="PA03" 5="PA04" 6="PA05" 7="PA06" 8="PA07" 9="VDDANA" 10="GND_1" 11="PA08" 12="PA09" 13="PA10" 14="PA11" 15="PA14" 16="PA15" 17="PA16" 18="PA17" 19="PA18" 20="PA19" 21="PA22" 22="PA23" 23="PA24" 24="PA25" 25="PA27" 26="'RESET'" 27="PA28" 28="GND_2" 29="VDDCORE" 30="VDDIN" 31="PA30" 32="PA31"
+*MXP 32
+*DFN ATSAMD21E18A-AU
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (ATSAMD21E18A-AU)
+~!Mouser Part Number (556-ATSAMD21E18A-AU)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=556-ATSAMD21E18A-AU)
+~!RS Part Number (1330940P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1330940P)
+~!Link Datasheet (http://ww1.microchip.com/downloads/en/devicedoc/40001884a.pdf)
+~!Height (1.2mm)
+~!3D_Model (ATSAMD21E18A-AU)
+ATSAMD21E18A-AU
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 

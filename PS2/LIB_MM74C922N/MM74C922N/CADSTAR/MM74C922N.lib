@@ -1,0 +1,18 @@
+.MM74C922N :1 ;Encoders, Decoders, Multiplexers & Demultiplexers 16-Key Encoder
+DIP927W56P260L2273H533Q18N
+*STM IC
+*NGS
+*PLB 1="ROW Y1" 2="ROW Y2" 3="ROW Y3" 4="ROW Y4" 5="OSCILLATOR" 6="KEYBOUNCE MASK" 7="COLUMN X4" 8="COLUMN X3" 9="GND" 10="COLUMN X2" 11="COLUMN X1" 12="DATA AVAILABLE" 13="'OUTPUT ENABLE'" 14="DATA OUT D" 15="DATA OUT C" 16="DATA OUT B" 17="DATA OUT A" 18="VCC"
+*MXP 18
+*DFN MM74C922N
+~!Manufacturer_Name (Fairchild Semiconductor)
+~!Manufacturer_Part_Number (MM74C922N)
+~!Mouser Part Number (512-MM74C922N)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=512-MM74C922N)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (https://www.fairchildsemi.com/datasheets/MM/MM74C922.pdf)
+~!Height (5.33mm)
+~!3D_Model (MM74C922N)
+MM74C922N
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name arduino_due_shield-rescue)(type Legacy)(uri ${KIPRJMOD}/arduino_due_shield-rescue.lib)(options "")(descr ""))
+)

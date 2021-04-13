@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name power)(type KiCad)(uri ${KIPRJMOD}/power.pretty)(options "")(descr ""))
+  (lib (name fuses)(type KiCad)(uri ${KIPRJMOD}/fuses.pretty)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri "E:/kicad/Thesis/3d insert/logo.pretty")(options "")(descr ""))
+)

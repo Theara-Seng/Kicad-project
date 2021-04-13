@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name HC-SR04)(type Legacy)(uri "E:/kicad/kicad new library/HC-SR04/HC-SR04.lib")(options "")(descr ""))
+  (lib (name A4988_STEPPER_MOTOR_DRIVER_CARRIER)(type Legacy)(uri "E:/kicad/kicad new library/A4988_STEPPER_MOTOR_DRIVER_CARRIER/A4988_STEPPER_MOTOR_DRIVER_CARRIER.lib")(options "")(descr ""))
+  (lib (name TMP36)(type Legacy)(uri "E:/kicad/kicad new library/TMP36/TMP36.lib")(options "")(descr ""))
+)

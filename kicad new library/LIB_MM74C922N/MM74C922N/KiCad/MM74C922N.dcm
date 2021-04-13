@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MM74C922N
+D Encoders, Decoders, Multiplexers & Demultiplexers 16-Key Encoder
+K
+F https://www.fairchildsemi.com/datasheets/MM/MM74C922.pdf
+$ENDCMP
+#
+#End Doc Library

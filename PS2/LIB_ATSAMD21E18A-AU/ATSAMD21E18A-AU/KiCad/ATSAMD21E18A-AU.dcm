@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATSAMD21E18A-AU
+D MICROCHIP - ATSAMD21E18A-AU - MCU, 32BIT, CORTEX-M0+, 48MHZ, TQFP-32
+F http://ww1.microchip.com/downloads/en/devicedoc/40001884a.pdf
+$ENDCMP
+#
+#End Doc Library

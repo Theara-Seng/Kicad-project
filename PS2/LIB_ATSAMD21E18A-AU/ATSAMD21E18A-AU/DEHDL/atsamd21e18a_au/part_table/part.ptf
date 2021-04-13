@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ATSAMD21E18A_AU'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "ATSAMD21E18A-AU" (!) = "", "QFP80P900X900X120-32N", "Quad Flat Packages", "556-ATSAMD21E18A-AU", "https://www.mouser.com/Search/Refine.aspx?Keyword=556-ATSAMD21E18A-AU", "1330940P", "http://uk.rs-online.com/web/p/products/1330940P", "MICROCHIP - ATSAMD21E18A-AU - MCU, 32BIT, CORTEX-M0+, 48MHZ, TQFP-32", "http://ww1.microchip.com/downloads/en/devicedoc/40001884a.pdf", "1.2 mm"
+END_PART
+
+END.

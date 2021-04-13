@@ -1,0 +1,51 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+ATSAMD21E18A-AU QFP80P900X900X120-32N I ANA 9 1 0 0 0
+TIMESTAMP 2019.09.05.05.03.56
+"Manufacturer_Name" Microchip
+"Manufacturer_Part_Number" ATSAMD21E18A-AU
+"Mouser Part Number" 556-ATSAMD21E18A-AU
+"Mouser Price/Stock" https://www.mouser.com/Search/Refine.aspx?Keyword=556-ATSAMD21E18A-AU
+"RS Part Number" 1330940P
+"RS Price/Stock" http://uk.rs-online.com/web/p/products/1330940P
+"Description" MICROCHIP - ATSAMD21E18A-AU - MCU, 32BIT, CORTEX-M0+, 48MHZ, TQFP-32
+"Datasheet Link" http://ww1.microchip.com/downloads/en/devicedoc/40001884a.pdf
+"Geometry.Height" 1.2mm
+GATE 1 32 0
+ATSAMD21E18A-AU
+1 0 U PA00
+2 0 U PA01
+3 0 U PA02
+4 0 U PA03
+5 0 U PA04
+6 0 U PA05
+7 0 U PA06
+8 0 U PA07
+9 0 U VDDANA
+10 0 U GND_1
+11 0 U PA08
+12 0 U PA09
+13 0 U PA10
+14 0 U PA11
+15 0 U PA14
+16 0 U PA15
+24 0 U PA25
+23 0 U PA24
+22 0 U PA23
+21 0 U PA22
+20 0 U PA19
+19 0 U PA18
+18 0 U PA17
+17 0 U PA16
+32 0 U PA31
+31 0 U PA30
+30 0 U VDDIN
+29 0 U VDDCORE
+28 0 U GND_2
+27 0 U PA28
+26 0 U \RESET
+25 0 U PA27
+
+*END*
+*REMARK* SamacSys ECAD Model
+610981/172898/2.43/32/4/Integrated Circuit

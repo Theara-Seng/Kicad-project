@@ -1,0 +1,18 @@
+.AP2331TDSA-7 :1 ;Power Switch ICs - Power Distribution USB Power Switch
+SOT96P240X110-3N
+*STM IC
+*NGS
+*PLB 1="GND" 2="OUT" 3="IN"
+*MXP 3
+*DFN AP2331TDSA-7
+~!Manufacturer_Name (Diodes Inc.)
+~!Manufacturer_Part_Number (AP2331TDSA-7)
+~!Mouser Part Number (621-AP2331TDSA-7)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=621-AP2331TDSA-7)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (https://www.diodes.com/assets/Datasheets/AP2331TD.pdf)
+~!Height (1.1mm)
+~!3D_Model (AP2331TDSA-7)
+AP2331TDSA-7
+1.1!U 2.1!U 3.1!U 

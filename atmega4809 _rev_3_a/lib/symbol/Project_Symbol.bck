@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMN63D8LDW
+F https://www.diodes.com/assets/Datasheets/DMN63D8LDW.pdf
+$ENDCMP
+#
+$CMP DMP3099L
+D MOSFET P-Channel SOT-23 -30V -3.8A
+$ENDCMP
+#
+$CMP MBR120
+D Schottky Barrier Recifier Diode SOD-123 1A 20V
+$ENDCMP
+#
+#End Doc Library

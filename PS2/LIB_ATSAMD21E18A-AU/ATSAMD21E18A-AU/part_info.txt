@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=ATSAMD21E18A-AU
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=32
+Version=1.2
+Released=2017-07-25 09:16:19
+Downloaded=2019-09-05 05:03:56
+3D=Y

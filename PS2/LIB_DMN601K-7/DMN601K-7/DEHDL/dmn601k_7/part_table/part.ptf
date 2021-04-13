@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DMN601K_7'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Diodes Inc.", "DMN601K-7" (!) = "", "SOT95P240X110-3N", "Other", "621-DMN601K-7", "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMN601K-7", "7082488P", "http://uk.rs-online.com/web/p/products/7082488P", "N-CHANNEL ENHANCEMENT MODE FIELD EFFECT TRANSISTOR", ""
+END_PART
+
+END.

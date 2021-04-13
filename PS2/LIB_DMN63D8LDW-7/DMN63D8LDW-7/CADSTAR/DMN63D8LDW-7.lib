@@ -1,0 +1,20 @@
+.DMN63D8LDW-7 :1 ;Diodes Inc DMN63D8LDW-7 Dual N-channel MOSFET Transistor, 0.26 A, 30 V, 6-Pin SOT-363
+SOT65P210X110-6N
+*STM Q
+*NGS
+*PLB 1="S1" 2="G1" 3="D2" 4="S2" 5="G2" 6="D1"
+*MXP 6
+*DFN DMN63D8LDW-7
+~!Manufacturer_Name (Diodes Inc.)
+~!Manufacturer_Part_Number (DMN63D8LDW-7)
+~!Mouser Part Number (621-DMN63D8LDW-7)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMN63D8LDW-7)
+~!RS Part Number (8222598P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/8222598P)
+~!Allied_Number (70551252)
+~!Link Allied Price/Stock (https://www.alliedelec.com/diodes-inc-dmn63d8ldw-7/70551252/)
+~!Link Datasheet (https://www.diodes.com/assets/Datasheets/DMN63D8LDW.pdf)
+~!Height (1.1mm)
+~!3D_Model (DMN63D8LDW-7)
+DMN63D8LDW-7
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 
